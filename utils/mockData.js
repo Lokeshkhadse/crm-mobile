@@ -1,19 +1,27 @@
 export const mockAttendanceLogs = [
   {
-    date: '2025-06-16',
-    clockIn: '09:00 AM',
-    clockOut: '05:30 PM',
-    duration: '8h 30m',
-    gps: '19.0760° N, 72.8777° E',
+    day: 'Monday',
+    date: 'June 17, 2025',
+    clockIn: '10:03 AM',
+    clockOut: '6:05 PM',
+    effectiveHours: '7h 45m',
+    grossHours: '8h 2m',
+    status: 'Late',
+    lateDuration: '3 min',
+    shift: '10:00 AM - 6:00 PM',
   },
   {
-    date: '2025-06-17',
-    clockIn: '09:15 AM',
-    clockOut: '05:00 PM',
-    duration: '7h 45m',
-    gps: '19.0760° N, 72.8777° E',
+    day: 'Sunday',
+    date: 'June 16, 2025',
+    clockIn: '10:00 AM',
+    clockOut: '6:00 PM',
+    effectiveHours: '8h',
+    grossHours: '8h',
+    status: 'On Time',
+    shift: '10:00 AM - 6:00 PM',
   },
 ];
+
 
 export const mockReports = [
   { date: '2025-06-01', status: 'Present' },
