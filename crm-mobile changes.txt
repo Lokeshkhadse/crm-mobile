@@ -1,0 +1,26 @@
+1. changes in spalsh scrren -> full code
+
+2.changes in apply leaves adding and header
+
+3.add notificationscrren -> changes in appNavigator.js (add notification path) -> add in dashboard screen
+    { title: 'Notification', screen: 'Notification', icon: 'notifications-outline' }, 
+    [remove locationscrren from screens,appnavigator & dahsboard screen]
+    [ <Stack.Screen name="Notification" component={NotificationScreen} />] add in navigator
+
+
+4. add SiteInstructionScreen -> changes in appNavigator.js (add SiteInstruction path) -> add in dashboard screen
+    { title: 'Site Instructions', icon: 'newspaper-outline', screen: 'SiteInstruction' },
+    [remove WFH appnavigator & dahsboard screen]
+    [<Stack.Screen name="SiteInstruction" component={SiteInstructionScreen} />] add in navigator
+
+5.Update AttedenceScreen code (add that if user is nead 100 m from site then user will able to clock in & clock out)
+
+6.add one folder in screen name as SuperviorHandlingScreen (add code) -> in that 3 screen add
+      1.InstructionDetailScreen.js
+      2.LeaveApprovalScrren.js
+      3.SiteTeamScreen.js
+   
+    { title: 'Supervisor Panel', icon: 'person-outline', screen: 'SupervisorHandling' }, add in dashboardScreen
+    [<Stack.Screen name="SupervisorHandling" component={SupervisorHandlingScreen} />] add in navigator
+
+ 
